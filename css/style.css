@@ -232,6 +232,7 @@ a.menu_toggler {display:none;}
 
 
 
+
 /* =Content
 -------------------------------------------------------------- */
 #home {	overflow:hidden; position:relative; padding:0; min-height:500px; background-image: url(../images/bg_home.jpg); background-size:cover;}
@@ -316,7 +317,7 @@ a.top_btn:hover {margin:0 0 20px -18px;}
 .mars a, .andy a {width:194px; height:194px; display:inline-block; border:10px solid #373737; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%;}
 .mars a {background:url(../images/mars.png) no-repeat;}
 .andy a {background:url(../images/andy.png) no-repeat;}
-.mars a:hover, .tom a:hover {border:10px solid #f83703;}
+.mars a:hover, .andy a:hover {border:10px solid #f83703;}
 .last {margin-right:0; border:none;}
 
 .biowin {width:1100px; position:absolute; z-index:111; background:#ffffff; -moz-box-shadow:0px 0px 80px rgba(0, 0, 0, 1); -webkit-box-shadow:0px 0px 80px rgba(0, 0, 0, 1); box-shadow:0px 0px 80px rgba(0, 0, 0, 1);}
@@ -346,7 +347,7 @@ a.top_btn:hover {margin:0 0 20px -18px;}
 .addison a, .nolan a {width:194px; height:194px; display:inline-block; border:10px solid #373737; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%;}
 .addison a {background:url(../images/addison.png) no-repeat;}
 .nolan a {background:url(../images/nolan.png) no-repeat;}
-.addison a:hover, .tom a:hover {border:10px solid #f83703;}
+.addison a:hover, .nolan a:hover {border:10px solid #f83703;}
 .last {margin-right:0; border:none;}
 
 .biowin {width:1100px; position:absolute; z-index:111; background:#ffffff; -moz-box-shadow:0px 0px 80px rgba(0, 0, 0, 1); -webkit-box-shadow:0px 0px 80px rgba(0, 0, 0, 1); box-shadow:0px 0px 80px rgba(0, 0, 0, 1);}

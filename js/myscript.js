@@ -196,10 +196,10 @@ $(function() {
   });
 
   	$(".launch-mars").click(function () {
-	  $(".marswin").show("slide",{direction: 'right'})
+	  $(".marswin").show("slide",{direction: 'left'})
   });
   $(".marswin .closewin a").click(function () {
-	  $(".marswin").hide("slide",{direction: 'right'})
+	  $(".marswin").hide("slide",{direction: 'left'})
   });
 
   $(".launch-andy").click(function () {
@@ -217,10 +217,10 @@ $(function() {
   });
 
   $(".launch-addison").click(function () {
-	  $(".addisonwin").show("slide",{direction: 'right'})
+	  $(".addisonwin").show("slide",{direction: 'left'})
   });
   $(".addisonwin .closewin a").click(function () {
-	  $(".addisonwin").hide("slide",{direction: 'right'})
+	  $(".addisonwin").hide("slide",{direction: 'left'})
   });
   
   
