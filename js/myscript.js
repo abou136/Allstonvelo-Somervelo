@@ -179,7 +179,7 @@ function mymargtop() {
 
 //Bio Windows
 $(function() {
-  $('.jtwin, .tewin').hide();  
+  $('.jtwin, .tewin, .marswin, .andywin, .nolanwin, .addisonwin').hide();  
 
   $(".launch-jt").click(function () {
 	  $(".jtwin").show("slide",{direction: 'left'})
@@ -187,10 +187,41 @@ $(function() {
   $(".jtwin .closewin a").click(function () {
 	  $(".jtwin").hide("slide",{direction: 'left'})
   });
+
   $(".launch-te").click(function () {
 	  $(".tewin").show("slide",{direction: 'right'})
   });
   $(".tewin .closewin a").click(function () {
 	  $(".tewin").hide("slide",{direction: 'right'})
   });
+
+  	$(".launch-mars").click(function () {
+	  $(".marswin").show("slide",{direction: 'right'})
+  });
+  $(".marswin .closewin a").click(function () {
+	  $(".marswin").hide("slide",{direction: 'right'})
+  });
+
+  $(".launch-andy").click(function () {
+	  $(".andywin").show("slide",{direction: 'right'})
+  });
+  $(".andywin .closewin a").click(function () {
+	  $(".andywin").hide("slide",{direction: 'right'})
+  });
+
+  $(".launch-nolan").click(function () {
+	  $(".nolanwin").show("slide",{direction: 'right'})
+  });
+  $(".nolanwin .closewin a").click(function () {
+	  $(".nolanwin").hide("slide",{direction: 'right'})
+  });
+
+  $(".launch-addison").click(function () {
+	  $(".addisonwin").show("slide",{direction: 'right'})
+  });
+  $(".addisonwin .closewin a").click(function () {
+	  $(".addisonwin").hide("slide",{direction: 'right'})
+  });
+  
+  
 });

@@ -307,6 +307,65 @@ a.top_btn:hover {margin:0 0 20px -18px;}
 .read-more a span {border-bottom: 1px solid #f83703;}
 .read-more a:after {content: "\4c";}
 
+
+.bios {width:600px; margin:0 auto 75px; letter-spacing:normal;}
+.bios h3 {font-size:1.5rem; font-size:24px; margin-bottom:15px; text-align:center;}
+.bios h3 a {border-bottom:1px solid #f83703;}
+.col-bio {float:left; width:220px; margin-right:160px; line-height:1.5;}
+.mars, .andy {width:194px; height:194px; margin:0 auto 15px;}
+.mars a, .andy a {width:194px; height:194px; display:inline-block; border:10px solid #373737; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%;}
+.mars a {background:url(../images/mars.png) no-repeat;}
+.andy a {background:url(../images/andy.png) no-repeat;}
+.mars a:hover, .tom a:hover {border:10px solid #f83703;}
+.last {margin-right:0; border:none;}
+
+.biowin {width:1100px; position:absolute; z-index:111; background:#ffffff; -moz-box-shadow:0px 0px 80px rgba(0, 0, 0, 1); -webkit-box-shadow:0px 0px 80px rgba(0, 0, 0, 1); box-shadow:0px 0px 80px rgba(0, 0, 0, 1);}
+.marswin {top:70px; left:0;}
+.andywin {top:70px; right:0;}
+.theimg {float:left; width:50%; height:611px;} /* 50% */
+.marswin .theimg {background:url(../images/mars.jpg) no-repeat top center;}
+.andywin .theimg {background:url(../images/andy.jpg) no-repeat top center;}
+.thebio {float:right; width:50%; font-size:1.125rem; font-size:18px; line-height:1.6; letter-spacing:normal; color:#000000;}
+.bio-text {padding:1% 8% 0;}
+.biowin h3 {font-size:2.5rem; font-size:40px;}
+.closewin {text-align:right; margin-right:25px; font-size:0.75rem; font-size:12px; margin-top:20px;}
+.closewin span {vertical-align:middle; font-size:1.5rem; font-size:24px;}
+.closewin a:hover {color:#000000;}
+
+.read-more {text-align:center;}
+.read-more a {font-size:0.75rem; font-size:14px; text-transform:uppercase;}
+.read-more a span {border-bottom: 1px solid #f83703;}
+.read-more a:after {content: "\4c";}
+
+
+.bios {width:600px; margin:0 auto 75px; letter-spacing:normal;}
+.bios h3 {font-size:1.5rem; font-size:24px; margin-bottom:15px; text-align:center;}
+.bios h3 a {border-bottom:1px solid #f83703;}
+.col-bio {float:left; width:220px; margin-right:160px; line-height:1.5;}
+.addison, .nolan {width:194px; height:194px; margin:0 auto 15px;}
+.addison a, .nolan a {width:194px; height:194px; display:inline-block; border:10px solid #373737; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%;}
+.addison a {background:url(../images/addison.png) no-repeat;}
+.nolan a {background:url(../images/nolan.png) no-repeat;}
+.addison a:hover, .tom a:hover {border:10px solid #f83703;}
+.last {margin-right:0; border:none;}
+
+.biowin {width:1100px; position:absolute; z-index:111; background:#ffffff; -moz-box-shadow:0px 0px 80px rgba(0, 0, 0, 1); -webkit-box-shadow:0px 0px 80px rgba(0, 0, 0, 1); box-shadow:0px 0px 80px rgba(0, 0, 0, 1);}
+.addisonwin {top:70px; left:0;}
+.nolanwin {top:70px; right:0;}
+.theimg {float:left; width:50%; height:611px;} /* 50% */
+.addisonwin .theimg {background:url(../images/addison.jpg) no-repeat top center;}
+.nolanwin .theimg {background:url(../images/nolan.jpg) no-repeat top center;}
+.thebio {float:right; width:50%; font-size:1.125rem; font-size:18px; line-height:1.6; letter-spacing:normal; color:#000000;}
+.bio-text {padding:1% 8% 0;}
+.biowin h3 {font-size:2.5rem; font-size:40px;}
+.closewin {text-align:right; margin-right:25px; font-size:0.75rem; font-size:12px; margin-top:20px;}
+.closewin span {vertical-align:middle; font-size:1.5rem; font-size:24px;}
+.closewin a:hover {color:#000000;}
+
+.read-more {text-align:center;}
+.read-more a {font-size:0.75rem; font-size:14px; text-transform:uppercase;}
+.read-more a span {border-bottom: 1px solid #f83703;}
+.read-more a:after {content: "\4c";}
 /* =Contact
 -------------------------------------------------------------- */
 .contact-left {float:left; width:30%; padding-top:43px; font-size:1rem; font-size:16px; line-height:1.5;}
@@ -471,6 +530,10 @@ a.menu_toggler:before {display:block; font-size:1.5rem; font-size:24px;}
 .col-bio {padding: 0 15px 0;}
 .jtwin {top:50px;}
 .tewin {top:580px;}
+.marswin {top:50px;}
+.andywin {top:580px;}
+.addisonwin {top:50px;}
+.nolanwin {top:580px;}
 
 .theimg {width:40%;}
 .thebio {width:60%;}
@@ -508,6 +571,10 @@ input[type="text"].math {width:185px;}
 (min-resolution:120dpi) {
 .jt a {background:url(../images/jt-2x.png) no-repeat; background-size:174px 174px;}
 .tom a {background:url(../images/tom-2x.png) no-repeat; background-size:174px 174px;}
+.mars a {background:url(../images/mars-2x.png) no-repeat; background-size:174px 174px;}
+.andy a {background:url(../images/andy-2x.png) no-repeat; background-size:174px 174px;}
+.addison a {background:url(../images/addison-2x.png) no-repeat; background-size:174px 174px;}
+.nolan a {background:url(../images/nolan-2x.png) no-repeat; background-size:174px 174px;}
 }
 #mask {
     position:absolute;
