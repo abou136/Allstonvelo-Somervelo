@@ -163,7 +163,7 @@ h2,h3,h4,h5,h6, .button, .prices, .closewin {font-family:"Ostrich Sans", Helveti
 
 body, .button {-webkit-font-smoothing:antialiased; font-smoothing:antialiased;}
 
-h1 {font-size:1rem; font-size:16px; color:#ffffff; text-transform:uppercase; letter-spacing:4px;}
+h1 {font-size:1rem; font-size:16px; color:#ffffff; text-transform:uppercase; letter-spacing:1px;}
 h2 {font-size:2.125rem; font-size:34px; line-height:1.25; margin-bottom:15px; color:#908f8f; text-transform:uppercase; letter-spacing:2px; text-shadow:0 2px 3px rgba(000,000,000,1); text-align:center;}
 h3 {font-size:1rem; font-size:16px; text-transform:uppercase;}
 h4 {}
@@ -201,7 +201,7 @@ h6 {}
 
 a.menu_toggler {display:none;}
 .navmenu { text-align:center; margin:0; font-size:0.813rem; font-size:13px; letter-spacing:1px;}
-.navmenu li {display:inline-block; margin:0; width:19%; line-height:74px;}
+.navmenu li {display:inline-block; margin:0; width:14%; line-height:74px;}
 .navmenu li a {display:block; text-align:center; text-decoration:none; color:#ffffff; font-weight:400; text-transform:uppercase; letter-spacing:2px; transition:none; -webkit-transition: none;}
 .navmenu li a:hover, .navmenu li.active a:hover {color:#000000;}
 .navmenu li.active a, .navmenu li.home a:before {color:#f83703;}
@@ -228,6 +228,7 @@ a.menu_toggler {display:none;}
 .lax.services {background-image: url(../images/bg_services.jpg);}
 .lax.talk {background-image: url(../images/bg_talk.jpg);}
 .lax.contact {background-image: url(../images/bg_contact.jpg);}
+.lax.team {background-image: url(../images/bg_services.jpg);}
 
 
 
